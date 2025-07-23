@@ -202,9 +202,7 @@ section {
 .btn-container{
     gap: 1rem;
 }
-.download-here{
-    color:blue;
-}
+
 @media screen and (max-width: 900px) {
     section {
         margin: 0 1rem 0 1rem;
@@ -249,13 +247,22 @@ section {
         font-size: 1rem;
     }
 }
+
 .download-here {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  color: #007bff !important;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: underline;
+  border-radius: 0;
+  transition: color 0.3s;
 }
+
 .download-here:hover {
-  background-color: #0056b3;
+  color: #0056b3 !important;
+  text-decoration: underline;
+  background: none;
 }
