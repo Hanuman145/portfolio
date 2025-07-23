@@ -259,6 +259,7 @@ section {
   text-decoration: underline;
   border-radius: 0;
   transition: color 0.3s;
+  cursor:pointer;
 }
 
 .download-here:hover {
